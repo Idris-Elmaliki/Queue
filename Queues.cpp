@@ -1,7 +1,6 @@
 #include <iostream>
 #include <queue> 
 
-
 template<class T> 
 class Node {
 public: 
@@ -90,16 +89,3 @@ public:
         }
     }
 };
-
-
-consteval int add(int a, int b) {
-    return a + b; 
-}
-
-int main(void) {
-    constexpr int a = add(5, 10); 
-
-    Queue<std::string> queue; 
-
-    std::cin.get(); 
-}
